@@ -1,8 +1,7 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
 
 const ProductPage = () => {
-    const { id } = useParams()
+    // const { id } = useParams()
     return (
         <div>
 
