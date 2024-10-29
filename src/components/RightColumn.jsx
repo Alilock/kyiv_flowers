@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import ArrowRightIcon from '../components/svgs/ArrowRightIcon'
 import ArrowLeftIcon from '../components/svgs/ArrowLeftIcon'
-import aromaCandels from '../assets/cardItems/aromaCandels.png'
-import driedFlowers from '../assets/cardItems/driedFlowers.png'
-import fresheners from '../assets/cardItems/fresheners.png'
-import freshFlowers from '../assets/cardItems/freshFlowers.png'
-import livePlants from '../assets/cardItems/livePlants.png'
+// import aromaCandels from '../assets/cardItems/aromaCandels.png'
+// import driedFlowers from '../assets/cardItems/driedFlowers.png'
+// import fresheners from '../assets/cardItems/fresheners.png'
+// import freshFlowers from '../assets/cardItems/freshFlowers.png'
+// import livePlants from '../assets/cardItems/livePlants.png'
 import axios from 'axios'
 import { useNavigate, useNavigation } from 'react-router-dom'
 
@@ -45,20 +45,20 @@ const RightColumn = () => {
                         index % 2 === 0 ?
                             <>
 
-                                <div onClick={() => navigateProduct(cat.id)} className='col-span-1  h-[360px] flex flex-col justify-center items-center relative border-b border-l border-[#121212]'>
+                                <div onClick={() => navigateProduct(cat.id)} className='col-span-1  lg:h-[360px] flex flex-col justify-center items-center relative border-b border-l border-[#121212]'>
                                     <p className='text-4xl max-md:text-2xl font-medium'>{cat.name}</p>
                                     <div className='flex flex-row items-center gap-2 absolute bottom-4'><p>Shop now</p><ArrowRightIcon /></div>
                                 </div>
-                                <div onClick={() => navigateProduct(cat.id)} className='col-span-1 h-[360px] border-b border-[#121212]'>
+                                <div onClick={() => navigateProduct(cat.id)} className='col-span-1 lg:h-[360px] border-b border-[#121212]'>
                                     <img src={cat.image} alt="" className='w-full h-full object-cover' />
                                 </div>
                             </> : <>
-                                <div onClick={() => navigateProduct(cat.id)} className='col-span-1 h-[360px] border-b border-[#121212]'>
+                                <div onClick={() => navigateProduct(cat.id)} className='col-span-1 lg:h-[360px] border-b border-[#121212]'>
                                     <img src={cat.image} alt="" className='w-full h-full object-cover' />
                                 </div>
-                                <div onClick={() => navigateProduct(cat.id)} className='col-span-1 h-[360px] flex flex-col justify-center items-center relative border-b border-[#121212]'>
+                                <div onClick={() => navigateProduct(cat.id)} className='col-span-1 lg:h-[360px] flex justify-center items-center relative border-b border-[#121212]'>
                                     <p className='text-4xl max-md:text-2xl font-medium'>{cat.name}</p>
-                                    <div className='flex flex-row items-center gap-2 absolute bottom-4'><p>Shop now</p><ArrowRightIcon /></div>
+                                    <div className='flex flex-row items-center gap-2 absolute bottom-4'><p>Shop now</p><ArrowLeftIcon /></div>
                                 </div>
 
                             </>
