@@ -34,14 +34,12 @@ const Footer = () => {
                 </div>
                 <div>
                     <p className='text-[#808080] text-xl'>Follow Us</p>
-                    <div className='flex justify-between'>
-                        <div className='w-8 h-8'><img src={Instagram} alt="" /></div>
-                        <div className='w-8 h-8'><img src={Pinterest} alt="" /></div>
-                        <div className='w-8 h-8'><img src={Facebook} alt="" /></div>
-                        <div className='w-8 h-8'><img src={Twitter} alt="" /></div>
-                        <div className='w-8 h-8'><img src={Telegram} alt="" /></div>
-                        {/* svglerder error var */}
-                        
+                    <div className='flex justify-between mt-4'>
+                        <div className='w-8 h-8'><Instagram /></div>
+                        <div className='w-8 h-8'><Pinterest /></div>
+                        <div className='w-8 h-8'><Facebook/></div>
+                        <div className='w-8 h-8'><Twitter/></div>
+                        <div className='w-8 h-8'><Telegram/></div>
                     </div>
                 </div>
             </div>
