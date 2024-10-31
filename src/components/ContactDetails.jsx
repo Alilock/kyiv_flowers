@@ -5,7 +5,7 @@ import MapPinIcon from './svgs/MapPinIcon'
 
 const ContactDetails = () => {
     return (
-        <div className='grid grid-cols-2 max-lg:grid-cols-1 h-[720px]'>
+        <div className='grid grid-cols-2 max-lg:grid-cols-1 '>
             <div className='order-1 max-lg:order-2 border-r border-[#121212]'>
                 <div className='flex flex-col gap-6 md:p-20 px-4 py-10 border-l border-b border-[#121212] h-[360px]'>
                     <p className='text-5xl max-lg:text-4xl'>To Contact Us</p>
