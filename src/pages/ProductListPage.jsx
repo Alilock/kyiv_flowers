@@ -9,18 +9,17 @@ const ProductListPage = () => {
     const { id } = useParams()
 
     const [products, setProducts] = React.useState([])
+    
     const fetchProducts = async () => {
         const response = await axios.get('https://6705597f031fd46a830fa27b.mockapi.io/api/product')
 
         // const filteredProducts = response.data.filter(pr => pr.categoryId === id)
 
-
         setProducts(response.data)
     }
     useEffect(() => {
         fetchProducts()
-    }
-        , [])
+    }, [])
     return (
         <div>
             <div className='grid grid-cols-2 max-lg:grid-cols-1 font-custom'>

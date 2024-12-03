@@ -16,7 +16,7 @@ const Header = () => {
                         <MenuIcon />
                     </div>
                 </Link>
-                <Link to="contact-section" smooth={true} duration={500} className='w-1/2 max-lg:hidden  flex items-center text-center justify-center border border-l-[0.5px] border-t-[0px] border-b-[0.5px]  border-[#121212]'>
+                <Link className='w-1/2 max-lg:hidden  flex items-center text-center justify-center border border-l-[0.5px] border-t-[0px] border-b-[0.5px]  border-[#121212]'>
                     <p>{t("contact")}</p>
                 </Link>
             </div>
