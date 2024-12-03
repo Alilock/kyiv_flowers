@@ -8,7 +8,7 @@ import Telegram from './svgs/social/TelegramIcon'
 const Footer = () => {
     return (
         <div className='grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 h-[360px]'>
-            <div className='flex flex-col gap-8 p-10  border border-r-0 border-[#121212]'>
+            <div className='flex flex-col gap-8 p-10  border border-r-0 border-[#121212] max-md:border-r'>
                 <p>
                     Remember to offer beautiful flowers from Kyiv LuxeBouquets Valentines Day,
                     Mothers Day, Christmas... Reminds you 7 days before. No spam or sharing your address
@@ -18,7 +18,7 @@ const Footer = () => {
                     <button className='py-4 bg-[#121212] uppercase text-white'>Remind</button>
                 </div>
             </div>
-            <div className='flex flex-col gap-6 p-10 border border-r-0 border-[#121212]'>
+            <div className='flex flex-col gap-6 p-10 border border-r-0 border-[#121212] max-lg:border-r'>
                 <p className='text-[#808080] text-xl'>Contact Us</p>
                 <div>
                     <p className='text-[#808080] text-sm'>Address</p>
@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col gap-6 p-10 border border-r-0 border-[#121212]'>
+            <div className='flex flex-col gap-6 p-10 border border-r-0 border-[#121212] max-md:border-r'>
                 <p className='text-[#808080] text-xl'>Shop</p>
                 <div>
                     <p>All Products</p>

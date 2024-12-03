@@ -3,7 +3,7 @@ import imghero from '../assets/imagehero.png'
 
 const LeftColumn = () => {
     return (
-        <div className='col-span-1 md:h-[720px] p-20 max-sm:p-5 border border-t-[0.5px] border-r-[0.5px] border-[#121212]'>
+        <div className='col-span-1 md:h-[720px] p-20 max-sm:p-5 border border-t-[0.5px] border-r-0 max-sm:border-r border-[#121212]'>
             <div className="flex pb-12 flex-col gap-6 border-b-[0.5px]  border-[#121212]">
                 <p className='text-6xl max-sm:text-4xl font-semibold'>
                     Kyiv <br />LuxeBouquets®

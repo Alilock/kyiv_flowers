@@ -7,8 +7,6 @@ const AppProvider = ({ children }) => {
 
     const [isAdmin, setIsAdmin] = useState(false)
 
-
-
     return (
         <AppContext.Provider value={{ isAdmin, setIsAdmin }}>
             {children}
